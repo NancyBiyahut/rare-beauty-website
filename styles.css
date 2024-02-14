@@ -1,0 +1,285 @@
+
+html {
+    font-size: 100%;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+ }
+
+body{
+    background-color: #FCFAF9;
+    position: relative;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: #FCF6F1;
+    color: #7F2448;
+    padding: 10px;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 24px;
+    gap: 15px;
+}
+
+.shop-link{
+    color: #7B0136;
+    font-family: 'Rufina', serif; 
+    font-size: 24px;
+}
+
+.header p, .header button {
+    margin: 0;
+}
+.top-line{
+    height: 5px;
+    width: match-parent;
+    background-color: #7B0136;
+}
+
+.hero{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap:47px;
+   height: 100vh;
+   align-items: center; 
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #7B0136;
+    align-self: start;
+}
+    
+.button1{
+    width: 470px;
+    height: 60px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #7B0136;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    align-items: center;
+    
+  }
+  
+  .button1:hover {
+    background-color: #7B0136;
+    color: white;
+  }
+
+.new{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4%; 
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.hero-title{
+    font-family: 'Rufina', serif;
+    font-size: 48px;
+    letter-spacing: -1%; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hero-content{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    letter-spacing: -2%; 
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+.main-img{
+    height:630px;
+    width: 690px;
+}
+
+.rare-beauty{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #7B0136;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.bt-text{
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: -37px;
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #7B0136;
+    letter-spacing: 4px;
+
+}
+
+.best-seller{
+    background-color: #FFF7F0;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prod1{
+    width: 352px;
+    height: 690px;
+    margin-top: 70px;
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prod-img{
+    width: 350px;
+    height: 390px;
+    margin: 0;
+}
+
+.prod-name{
+    font-family: 'Rufina', serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.prod-price{
+    font-size: 27px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.butt{
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+
+#shop-now-btn , #wishlist-btn{
+    width: 350px;
+}
+
+.shop-cat{
+    background-color: #FFF7F0;
+    height: 1300px;
+    margin-top: 190px;
+}
+
+.shop-cat-text{
+    font-family: 'Rufina', serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-top: -100px;
+    color: #7B0136;
+    
+}
+
+.lip{
+    position: absolute;
+    width: 555px;
+    height: 650px;
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 93px;
+    transform: rotate(-10deg);
+    transition: transform 0.3s ease;
+}
+.lip:hover {
+    transform: rotate(-10deg) scale(1.05);
+  }
+
+.eye{
+    position: absolute;
+    width: 585px;
+    height: 650px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 1000px;
+    transform: rotate(13deg);
+    transition: transform 0.3s ease;
+}
+.eye:hover {
+    transform: rotate(13deg) scale(1.05);
+  }
+
+.face {
+    position: absolute;
+    width: 660px;
+    height: 540px;
+    margin-left: 870px;
+    margin-top: 750px;
+    transform: rotate(-8deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .face:hover {
+    transform: rotate(-8deg) scale(1.05);
+  }
+  
+.lip-txt{
+    position: absolute;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 760px;
+    letter-spacing: 5px;
+    color: #7B0136;
+    transform: rotate(7deg);
+}
+
+.face-txt{
+    position: absolute;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 1100px;
+    margin-top: 1250px;
+    color: #7B0136;
+    transform: rotate(7deg);
+
+}
+
+.eye-txt{
+    position: absolute;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 985px;
+    margin-top: 380px;
+    color: #7B0136;
+    transform: rotate(-7deg);
+}
+
+
+
+
+
+  /* 
+  font-family: 'Amatic SC', sans-serif;
+font-family: 'Pavanam', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poiret One', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rufina', serif; */
